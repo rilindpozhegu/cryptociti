@@ -1,0 +1,119 @@
+.wallet_cover_main {
+    background-image: url('../img/cover/wallet_cover.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    padding: 19% 10px 0px;
+}
+
+.wallet_cover_main h2 {
+	font-size: 44px;
+}
+
+.wallet_cover_main p {
+	color: #999999;
+}
+
+.section_one_wallet {
+    padding: 5% 10px; 
+}
+
+.section_one_wallet h1 {
+    width: 100%;
+    text-align: center;
+    color: #3c2536;
+    font-family: 'Poppins-Light';
+    margin-bottom: 30px;
+}
+
+.section_one_wallet h2 {
+    color: #3195ed;
+    font-family: 'Poppins-Light';
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.section_one_wallet p {
+    color: #999999;
+    font-size: 14px;   
+}
+
+
+.wallet_third_section {
+    background-image: url('../img/cover/feautre_wallet.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 6% 10px;
+}
+
+/*Small boxes*/
+
+
+.box1_w {
+    background-image: url(../img/mix/box1.png);
+    background-position: -52px -35px;
+    background-repeat: no-repeat;
+    width: 0px;
+    padding: 3% 0px;
+}
+
+.box2_w {
+    background-image: url(../img/mix/box2.png);
+    background-position: -52px -35px;
+    background-repeat: no-repeat;
+    width: 0px;
+    padding: 3% 0px;
+}
+.box3_w {
+    background-image: url(../img/mix/box3.png);
+    background-position: -52px -35px;
+    background-repeat: no-repeat;
+    width: 0px;
+    padding: 3% 0px;
+}
+.box4_w {
+    background-image: url(../img/mix/box4.png);
+    background-position: -52px -35px;
+    background-repeat: no-repeat;
+    width: 0px;
+    padding: 3% 0px;
+}
+.box5_w {
+    background-image: url(../img/mix/box5.png);
+    background-position: -52px -35px;
+    background-repeat: no-repeat;
+    width: 0px;
+    padding: 3% 0px;
+}
+.box6_w {
+    background-image: url(../img/mix/box6.png);
+    background-position: -52px -35px;
+    background-repeat: no-repeat;
+    width: 0px;
+    padding: 3% 0px;
+}
+
+.wallet_ledger_bg {    
+    background-image: url('../img/cover/about_section_3.png') !important;
+}
+
+.pricing_text_all {
+    padding-top: 8%;
+}
+
+.pricing_text_all h2 {
+    color: #3c2536;
+    font-family: 'Poppins-Light';
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.pricing_wallet img {
+    width: 80%;
+}
+.pricing_text_all p {
+
+}

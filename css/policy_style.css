@@ -1,0 +1,42 @@
+.policy_cover_main {
+    background-image: url('../img/cover/about_cover.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    padding: 16% 10px 0px;
+}
+
+.policy_cover_main h2 {
+	font-family: 'Poppins-Light';
+	font-size: 44px;
+	color: #fff;
+}
+
+.policy_cover_main p {
+	font-family: 'Poppins-Light';
+	color: #999999;
+}
+
+.policy_boxes {
+	padding: 6% 10px;
+}
+
+
+
+.policy_boxes h2 {
+	font-family: 'Poppins-Light';
+	font-size: 44px;
+	color: #2e3755;
+	width: 100%;
+}
+
+.policy_boxes p {
+	font-family: 'Poppins-Light';
+	color: #999999;
+}
+
+.colored_policy {
+	background-color: #f2f2f2;
+}

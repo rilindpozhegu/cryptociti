@@ -1,0 +1,53 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins-Bold.ttf');
+ }
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins-Light.ttf');
+ }
+@font-face {
+  font-family: 'Wavehaus-42Light';
+  src: url('../fonts/Wavehaus-42Light.otf');
+ }
+ @font-face {
+  font-family: 'Wavehaus-95SemiBold';
+  src: url('../fonts/Wavehaus-95SemiBold.otf');
+ }
+
+body {
+  font-family: 'Poppins-Light' !important;
+}
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px !important;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}

@@ -1,0 +1,188 @@
+.home_cover_main {
+	background-image: url('../img/cover/home_cover.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	padding: 19% 10px 0px;
+}
+
+.home_cover_main h2 {
+	font-size: 44px;
+}
+
+
+.home_section_1 {
+	padding: 5% 10px;
+}
+
+.home_section_1 h2 {
+	color: #3195ed;
+	font-size: 37px;
+	font-family: 'Wavehaus-95SemiBold';
+}
+
+.home_section_1 p {
+	color: #999999;
+}
+
+.home_section_1 .home_text {
+	padding-top: 4%;
+}
+
+.box_home {
+	margin-bottom: 30px;
+}
+
+/*Second section of homepage*/
+
+.ledger_apps_section {
+	background-image: url('../img/cover/second_section_bg_h.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 8% 10px 8%;
+	text-align: center;
+}
+ 
+.ledger_apps_section h2 {
+	color: #3195ed;
+	font-size: 37px;
+	font-family: 'Wavehaus-95SemiBold';	
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.ledger_apps_section p {
+	color: #999999;
+}
+
+.logos_section_ledger img {
+	width: 8%;
+}
+
+
+/*Features Section homepage and other pages*/
+
+.features_section_all {
+	background-image: url('../img/cover/home_features.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 6% 10px 6%;
+}
+ 
+.features_section_all h2 {
+	color: #3195ed;
+	font-size: 37px;
+	font-family: 'Wavehaus-95SemiBold';	
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+ 
+.features_section_all h5 {
+	color: #3195ed;
+	font-size: 20px;
+	font-family: 'Wavehaus-95SemiBold';	
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.features_section_all p {
+	color: #999999;
+	font-size: 13px;
+}
+
+.first_section_feat {
+	text-align: right;
+}
+
+
+/*Ripple section homepage*/
+
+
+.ripple_section_homepage {
+	background-image: url('../img/cover/ripple_bg.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 8% 10px 8%;
+	text-align: left;
+}
+
+
+.ripple_section_homepage h2 {
+	color: #fff;
+	font-size: 37px;
+	font-family: 'Wavehaus-95SemiBold';	
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.ripple_section_homepage p {
+	color: #fff;
+	font-size: 16px;
+}
+
+.ripple_section_homepage img {
+	width: 23%;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+
+.ledger_panel_slide {
+	width: 100% ;
+}
+
+
+/*Get Ledger Home*/
+
+.get_ledger_home {
+	padding: 6% 10px;
+}
+
+.get_ledger_home h2 {
+	color: #3195ed;
+	font-size: 37px;
+	font-family: 'Wavehaus-95SemiBold';	
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+.get_ledger_home h3 {
+	color: #3195ed;
+	font-size: 25px;
+	font-family: 'Wavehaus-95SemiBold';	
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+.ledger_panel_slide {
+	padding: 20px;
+    border: solid 1px #8a889b;
+    border-radius: 5px;
+}
+
+.ledger_panel_slide h1 {
+	font-family: 'Poppins-Bold';
+	color: #5f6772;
+}
+
+.ledger_panel_slide h5 {
+	font-family: 'Poppins-Light';
+	color: #5f6772;
+	font-size: 17px;
+}
+
+.ledger_panel_slide p {
+	font-size: 16px;
+}
+
