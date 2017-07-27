@@ -125,11 +125,11 @@
             <label>Address</label>
             <input type="text" name="address">
         </div>
-        <div class="col-md-12 inputs no-padding-left">
+        <div class="col-md-9 inputs no-padding-left">
             <label>Message</label>
             <textarea name="message"></textarea>
         </div>
-        <div class="col-md-12 inputs no-padding-left">
+        <div class="col-md-3 inputs no-padding-left">
             <input type="submit" class="submit" value="Submit"></div>
         </div>
 
