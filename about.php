@@ -109,27 +109,27 @@
     <i class="fa fa-times hide" aria-hidden="true"></i>
     <h4>Please complete the preorder form</h4>
     <div class="contact-inputs">
-        <div class="col-md-6 inputs">
+        <div class="col-md-6 inputs no-padding-left">
             <label>Name</label>
             <input type="text" name="name">
         </div>
-        <div class="col-md-6 inputs">
+        <div class="col-md-6 inputs no-padding-left">
             <label>Number</label>
             <input type="text" name="number">
         </div>
-        <div class="col-md-6 inputs">
+        <div class="col-md-6 inputs no-padding-left">
             <label>Email</label>
             <input type="text" name="Email">
         </div>
-        <div class="col-md-6 inputs">
+        <div class="col-md-6 inputs no-padding-left">
             <label>Address</label>
             <input type="text" name="address">
         </div>
-        <div class="col-md-12 inputs">
+        <div class="col-md-12 inputs no-padding-left">
             <label>Message</label>
             <textarea name="message"></textarea>
         </div>
-        <div class="col-md-12 inputs">
+        <div class="col-md-12 inputs no-padding-left">
             <input type="submit" class="submit" value="Submit"></div>
         </div>
 
