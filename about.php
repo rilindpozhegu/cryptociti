@@ -22,10 +22,10 @@
 
 
 <!-- NavigationBar -->
-    <?php include 'navigation_bar_colored.php';?>
 <!-- Include -->
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div class="blured">
+    <?php include 'navigation_bar_colored.php';?>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"></div>
   <!-- <ol class="carousel-indicators mobile-d-n">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -82,7 +82,7 @@
                 <h2 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".2s">Our Mission</h2>
                 <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Our mission is to bring you the best cryptocurrency hardware and make sure you don’t spend a fortune to own one. This is the best and the safest way to keep the inventory of all your coins away from a hacker’s praying eyes.</p>
                 <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">We would love you to be part of this new technological revolution and at the same time not to be ever concerned about your assets being compromised.</p>
-                <button class="default_button wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">Contact</button>
+                <button class="default_button wow fadeInRight contact-button" data-wow-duration="1s" data-wow-delay=".4s">Contact</button>
             </div>
         </div>
     </div>
@@ -102,14 +102,64 @@
         </div>
     </div>
 </section>
+    <?php include 'footer_all.php';?>
+</div>
 
+<div class="contact__form">
+    <i class="fa fa-times hide" aria-hidden="true"></i>
+    <h4>Please complete the preorder form</h4>
+    <div class="contact-inputs">
+        <div class="col-md-6 inputs">
+            <label>Name</label>
+            <input type="text" name="name">
+        </div>
+        <div class="col-md-6 inputs">
+            <label>Number</label>
+            <input type="text" name="number">
+        </div>
+        <div class="col-md-6 inputs">
+            <label>Email</label>
+            <input type="text" name="Email">
+        </div>
+        <div class="col-md-6 inputs">
+            <label>Address</label>
+            <input type="text" name="address">
+        </div>
+        <div class="col-md-12 inputs">
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <div class="col-md-12 inputs">
+            <input type="submit" class="submit" value="Submit"></div>
+        </div>
+
+    </div>
+</div>
 
 <!-- Footer all Pages -->    
-    <?php include 'footer_all.php';?>
+
 
 <!-- jQuery -->
 
     <script type="text/javascript" src="build/scripts.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var blured = $('.blured');
+            var contact__form = $('.contact__form');
+
+            $('.contact-button').click(function () {
+               blured.addClass('true');
+               contact__form.addClass('revealed');
+            });
+
+            $('.hide').click(function () {
+                blured.removeClass('true');
+                contact__form.removeClass('revealed');
+            });
+        });
+    </script>
+    <style type="text/css">
+    </style>
 
 </body>
 
