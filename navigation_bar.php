@@ -1,6 +1,6 @@
     
     <!--when to change the color-->
-    <nav class="navbar navbar-toggleable-md sm_overlay_nav fixed-top navbar-transparent" color-on-scroll="100"> 
+    <nav class="navbar navbar-toggleable-md sm_overlay_nav fixed-top navbar-transparent" color-on-scroll="50"> 
     <!-- 200! Default -->
         <div class="container">
             <div class="navbar-translate">
@@ -13,7 +13,7 @@
                     <p class="logo_replace">cryptociti</p>
                 </a>
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">
@@ -38,11 +38,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)">
                             <p>Product Details</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./documentation/tutorial-components.html" >
-                            <p>Components</p>
                         </a>
                     </li>
                     <li class="nav-item">

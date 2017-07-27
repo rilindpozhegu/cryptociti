@@ -1,0 +1,119 @@
+/*Only in desktop*/
+@media only screen and (min-width: 1000px) {
+    .desktop-d-n {
+      display: none;
+    }
+}
+
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1000px) {
+    .mobile-d-n {
+   		display: none;
+  	}
+  	.home_cover_main h2 {
+	    font-size: 32px;
+	}
+
+	.home_cover_main img {
+		width: 80%;
+		margin-bottom: 15%;
+	}
+
+	.home_cover_main {
+		padding-top: 26%;
+		text-align: center;
+		height: auto;
+	}
+
+	.home_section_1 h2 {
+	    color: #3195ed;
+	    font-size: 32px;
+	    font-family: 'Wavehaus-95SemiBold';
+	}
+
+	.ledger_apps_section h2 {
+	    font-size: 32px;
+	}
+
+	.logos_section_ledger img {
+	    width: 20%;
+	}
+	.first_section_feat {
+	    text-align: left;
+	}
+	.ripple_section_homepage img {
+		width: 30%;
+	}
+	.owl-carousel_edit {
+		border: none;
+	}
+	.ledger_panel_slide {
+		border: solid transparent 1px;
+	}
+
+	.main_text_ledger_h {
+		padding-left: 15px;
+		padding-top: 30px;
+	}
+	/*About Page*/
+	.content_about_cover {
+	    top: 27%;
+	}
+
+	/*Wallet*/
+  	.wallet_cover_main h2 {
+	    font-size: 32px;
+	}
+
+	.wallet_cover_main {
+		padding-top: 26%;
+		text-align: center;
+		height: auto;
+	}
+
+	.wallet_cover_main img {
+		width: 80%;
+		margin-bottom: 15%;
+	}
+	.section_one_wallet {
+	    padding: 21% 10px;
+	}
+
+	.wallet_third_section .col-md-6 {
+		width: 100%;
+		padding: 10px 15px;
+	}
+	.pricing_wallet {
+		text-align: center;
+	}
+	.pricing_wallet img {
+		width: 80%;
+	}
+	.pricing_text_all {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+
+	/*Policy*/
+
+	.policy_cover_main {
+		padding-top: 40%;
+	}
+	.policy_cover_main h2 {
+		font-size: 32px;
+	}
+	.policy_boxes h2 {
+		font-size: 32px;
+	}
+	.policy_boxes {
+	    padding: 9% 10px;
+	}
+
+
+	.navbar-nav a p {
+		color: #fff !important;
+	}
+
+  }
